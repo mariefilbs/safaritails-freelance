@@ -3,23 +3,33 @@
 * {
   box-sizing: border-box;
   list-style: none;
-
 }
 
 nav {
+  height: 90px;
   border-bottom: 1px solid grey;
+}
+
+.nav-item {
+  align-items: flex-end;
 }
 
 .logo {
   padding-top: 15px;
-  padding-left: 62px;
+  padding-left: 5px;
   font-weight: bold;
   font-family: 'Sansita', sans-serif;
-  font-size: 170%;
+  font-size: 300%;
   letter-spacing: 2px;
+  align-items: flex-end;
 }
 #green {
   background-color: #267426;
+}
+
+i.fa.fa-leaf {
+  margin-bottom: 7px;
+  margin-left: 3px;
 }
 
 
