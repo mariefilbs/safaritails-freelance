@@ -8,9 +8,9 @@ function Config ($stateProvider, $urlRouterProvider) {
   })
   .state('root.home',  {
       url: '/home',
-      template: `<p>Welcome to SafARI TAILS! Please excuse our site construction.</p>`
-      //templateUrl: 'templates/home.tpl.html',
-      //controller: 'HomeController'
+      //template: `<p>Welcome to SafARI TAILS! Please excuse our site construction.</p>`,
+      templateUrl: 'templates/home.tpl.html',
+      controller: 'UserController'
   })
   .state('page-not-found', {
       url: '/not-found',
